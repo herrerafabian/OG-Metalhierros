@@ -3,30 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio de Servicios - OG METALHIERROS</title>
+    <style>
+        /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Estilos específicos para las secciones */
+#presentacion h2 {
+    color: #333;
+}
+
+#servicios ul {
+    padding-left: 20px;
+}
+
+#portafolio p, #contacto p {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, p {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Mi Página Web</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <h2>Bienvenido a Mi Página Web</h2>
-            <p>Esta es una página web de ejemplo.</p>
+    <div class="container">
+        <header>
+            <img src="ruta/a/la/imagen.jpg" alt="Texto alternativo de la imagen">
+            <h1>OG METALHIERROS</h1>
+            <nav>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="presentacion">
+            <h2>Sobre Nosotros</h2>
+            <p>En OG METALHIERROS, nos dedicamos a proporcionar soluciones innovadoras y personalizadas en el diseño y elaboración de proyectos industriales y para hogares. Desde ductos industriales y campanas hasta ornamentación personalizada, nuestra experiencia y conocimiento nos permiten crear productos duraderos y funcionales que destacan por su elegancia y precisión.</p>
+            <p>Trabajamos exclusivamente con materiales de la más alta calidad, incluyendo acero inoxidable y lámina galvanizada, para garantizar la durabilidad y resistencia de cada pieza que fabricamos. Nos enorgullece adaptarnos a las necesidades específicas de cada cliente, ofreciendo un servicio personalizado y atención meticulosa a los detalles.</p>
+            <p>En OG METALHIERROS, nuestra misión es superar las expectativas de nuestros clientes en términos de calidad, servicio y cumplimiento. Nos comprometemos a brindarte una experiencia de trabajo sin complicaciones y resultados excepcionales que transformen tus proyectos en realidad. ¡Contáctanos hoy y descubre cómo podemos hacer realidad tus ideas!</p>
         </section>
-    </main>
-
-    <footer>
-        <p>Derechos de autor &copy; 2024 - Mi Página Web</p>
-    </footer>
+        <hr>
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Ductos</li>
+                <li>Shuts</li>
+                <li>Campanas</li>
+                <li>Canales</li>
+                <li>Bajantes</li>
+                <li>Domos</li>
+                <li>Ornamentación</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="portafolio">
+            <h2>Nuestro Portafolio</h2>
+            <p>Próximamente...</p>
+        </section>
+        <hr>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Dirección: Calle 71 C Sur # 79-85 Bosa Naranjos</p>
+            <p>Teléfono : 3103904376</p>
+        </section>
+    </div>
 </body>
 </html>
